@@ -15,4 +15,4 @@ jobs:
       - name: Test
         run: |
           echo $RELEASE_VERSION
-          echo ${{ env.RELEASE_VERSION }}
+          echo ${{ steps.branch_name.outputs.SOURCE_TAG }}
