@@ -30,4 +30,4 @@ jobs:
       - name: Test
         run: |
           echo $RELEASE_VERSION
-          echo ${{ steps.vars.outputs.tag }}
+          echo ${{ github.event.release.tag_name }}
