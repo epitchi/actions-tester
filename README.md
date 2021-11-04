@@ -6,6 +6,4 @@ New version test
 
 xcxczxzxc
 
-asd
-
-asdasd
+asdasdasd
